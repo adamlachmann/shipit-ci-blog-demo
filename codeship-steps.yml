@@ -1,0 +1,9 @@
+- name: Perform tests
+  tag: master
+  service: deployer
+  command: ./ci/run-tests.sh
+
+- name: Deploy the app
+  tag: master
+  service: deployer
+  command: ./ci/deploy.sh
