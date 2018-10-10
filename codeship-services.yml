@@ -1,0 +1,4 @@
+deployer:
+  build:
+    image: deployer-image
+    dockerfile: ./ci/shipit.dockerfile
