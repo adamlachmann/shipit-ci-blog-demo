@@ -4,6 +4,7 @@
   "description": "Simple Express.js app for demo purposes",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "repository": {
@@ -16,5 +17,15 @@
     "deployment"
   ],
   "author": "Software Brothers",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "shipit-cli": "^4.1.1",
+    "shipit-deploy": "^4.1.1",
+    "supertest": "^3.3.0"
+  }
 }
