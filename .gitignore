@@ -73,3 +73,8 @@ typings/
 .serverless
 
 .DS_Store
+codeship.aes
+codeship_deploy_key
+codeship_deploy_key.pub
+codeship.env
+.ssh

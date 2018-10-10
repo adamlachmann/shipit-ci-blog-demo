@@ -2,3 +2,8 @@ deployer:
   build:
     image: deployer-image
     dockerfile: ./ci/shipit.dockerfile
+  encrypted_env_file: codeship.env.encrypted
+  volumes:
+    - ./.ssh:/root/.ssh
+  environment:
+    SERVER_IP: 77.55.227.88
