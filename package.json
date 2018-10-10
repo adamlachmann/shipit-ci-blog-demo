@@ -1,0 +1,20 @@
+{
+  "name": "shipit-ci-blog-demo",
+  "version": "1.0.0",
+  "description": "Simple Express.js app for demo purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamlachmann/shipit-ci-blog-demo.git"
+  },
+  "keywords": [
+    "codeship",
+    "shipit.js",
+    "deployment"
+  ],
+  "author": "Software Brothers",
+  "license": "MIT"
+}
